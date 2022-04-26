@@ -201,7 +201,7 @@ fi
 
 set -- \
         -classpath "$CLASSPATH" \
-        pps-ci-lab.TryClass \
+        src.main.java.TryClass \
         "$@"
 
 # Use "xargs" to parse quoted args.
